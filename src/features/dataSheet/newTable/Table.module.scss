@@ -1,0 +1,24 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    &_head {
+        display: flex;
+        height: 40px;
+        border-bottom: 1px solid #414144;
+        color: #a1a1aa;
+        align-items: center;
+        & > * {
+            margin-right: 10px;
+        }
+        &_name {
+            flex: 1 1;
+        }
+        &_title {
+            flex: 3 1;
+        }
+        &_buttons {
+            padding-left: 20px;
+            width: 160px;
+        }
+    }
+}

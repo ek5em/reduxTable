@@ -1,0 +1,18 @@
+.button {
+    background: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    outline: none;
+    color: #a1a1aa;
+    font-size: 14px;
+    height: 100%;
+    padding: 0 10px;
+    &:hover {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+    &.active {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+}

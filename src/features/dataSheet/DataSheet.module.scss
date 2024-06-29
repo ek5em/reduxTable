@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+}
+
+.projectlist {
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #414144;
+    min-width: 230px;
+    &_header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px 0 20px;
+        justify-content: space-between;
+        border-bottom: solid 1px #414144;
+    }
+    &_title {
+        display: flex;
+        flex-direction: column;
+        color: #a1a1aa;
+        &_note {
+            font-size: 10px;
+        }
+    }
+    &_button {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../images/downArrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+}
+
+.datasheet {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    &_header {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px #414144;
+        &_title {
+            height: 100%;
+            line-height: 40px;
+            padding: 0 20px;
+            color: #fff;
+            font-size: 18px;
+            border-right: solid 1px #414144;
+        }
+    }
+}
