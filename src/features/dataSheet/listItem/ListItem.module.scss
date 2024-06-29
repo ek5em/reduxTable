@@ -1,0 +1,24 @@
+.listitem {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background-color: #a1a1aa;
+    }
+    &_icon {
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../images/listItem.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 20px;
+    }
+    &_title {
+        color: #fff;
+    }
+    &.active {
+        background-color: #a1a1aa;
+    }
+}
