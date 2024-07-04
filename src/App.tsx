@@ -11,7 +11,7 @@ export default function App() {
 
     useEffect(() => {
         dispatch(fetchOverloads());
-    }, [dispatch]);
+    }, []);
 
     return (
         <div className={s.container}>
